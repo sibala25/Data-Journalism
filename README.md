@@ -1,13 +1,17 @@
 # Data Journalism
 
-A collection of my published data journalism work, exploring questions through data analysis and communicating the results for a broader audience.
+Published data journalism projects using analysis and visualization to tell stories about sports and consumer behavior.
 
-## Published articles
+## Published Articles
 
-| Project | Published article | Year |
+| Article | Publication | Year |
 | --- | --- | --- |
-| [How Does Age Impact Swimming Performance?](Swimming-Performance/README.md) | [Read article](https://www.bruinsportsanalytics.org/journalism/how-does-age-impact-swimming-performance) | 2022 |
-| [Predicting the 2023 Formula One Season](Formula-One-Predictions/README.md) | [Read article](https://www.bruinsportsanalytics.org/journalism/predicting-the-2023-formula-one-season) | 2023 |
-| [The Maze of Amazon Reviews](Amazon-Reviews/README.md) | [Read article](https://ucladatares.medium.com/the-maze-of-amazon-reviews-11832f2087bf) | 2023 |
+| [How Does Age Impact Swimming Performance?](https://www.bruinsportsanalytics.org/journalism/how-does-age-impact-swimming-performance) | Bruin Sports Analytics | 2022 |
+| [Predicting the 2023 Formula One Season](https://www.bruinsportsanalytics.org/journalism/predicting-the-2023-formula-one-season) | Bruin Sports Analytics | 2023 |
+| [The Maze of Amazon Reviews](https://ucladatares.medium.com/the-maze-of-amazon-reviews-11832f2087bf) | DataRes at UCLA | 2023 |
 
-Each folder links to the original published article. These folders currently contain article references rather than full code or datasets.
+## Formula One Analysis
+
+The [original R analysis script](f1%20analyses-updated-0302.r) accompanies the Formula One article. It uses historical driver standings, linear and quadratic regression, and visualizations to develop predictions for the 2023 season.
+
+The script expects a `driver_standings` data frame prepared separately. The published articles are linked above.
